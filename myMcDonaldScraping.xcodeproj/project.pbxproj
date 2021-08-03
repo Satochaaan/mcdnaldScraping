@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		667DB5F1348301885B09AB1B /* Pods_myMcDonaldScraping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A372AD65A4506301979ECCC /* Pods_myMcDonaldScraping.framework */; };
+		836AD91726B223A3007BDCD6 /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836AD91626B223A3007BDCD6 /* Burger.swift */; };
 		83F9D50926B2128500A8A4A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9D50826B2128500A8A4A6 /* AppDelegate.swift */; };
 		83F9D50D26B2128500A8A4A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9D50C26B2128500A8A4A6 /* ViewController.swift */; };
 		83F9D51226B2128600A8A4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F9D51126B2128600A8A4A6 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		62FE8F3CFA699891F8EC86E9 /* Pods-myMcDonaldScraping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myMcDonaldScraping.release.xcconfig"; path = "Target Support Files/Pods-myMcDonaldScraping/Pods-myMcDonaldScraping.release.xcconfig"; sourceTree = "<group>"; };
+		836AD91626B223A3007BDCD6 /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
 		83F9D50526B2128500A8A4A6 /* myMcDonaldScraping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMcDonaldScraping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F9D50826B2128500A8A4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83F9D50C26B2128500A8A4A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				83F9D50826B2128500A8A4A6 /* AppDelegate.swift */,
 				83F9D50C26B2128500A8A4A6 /* ViewController.swift */,
+				836AD91626B223A3007BDCD6 /* Burger.swift */,
 				83F9D51126B2128600A8A4A6 /* Assets.xcassets */,
 				83F9D51326B2128600A8A4A6 /* LaunchScreen.storyboard */,
 				83F9D51626B2128600A8A4A6 /* Info.plist */,
@@ -82,7 +85,6 @@
 				AB136D2BD64018A8B066EFFE /* Pods-myMcDonaldScraping.debug.xcconfig */,
 				62FE8F3CFA699891F8EC86E9 /* Pods-myMcDonaldScraping.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -199,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836AD91726B223A3007BDCD6 /* Burger.swift in Sources */,
 				83F9D50D26B2128500A8A4A6 /* ViewController.swift in Sources */,
 				83F9D50926B2128500A8A4A6 /* AppDelegate.swift in Sources */,
 			);
